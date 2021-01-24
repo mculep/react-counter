@@ -1,10 +1,32 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .App {
   text-align: center;
+  margin: 30px;
+  box-shadow: 0 3px 4px 4px rgba(238, 238, 238, 0.53);
+  width: 250px;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+h1 {
+  padding: 15px 0 0 0;
+}
+
+.btn {
+  margin: 30px;
+  color: #fff;
+  background: #000;
+  border-radius: 6px;
+  padding: 10px;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -32,6 +54,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
